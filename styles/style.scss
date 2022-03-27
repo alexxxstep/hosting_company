@@ -1,0 +1,18 @@
+$header1: 6.4rem;
+$header2: 4.8rem;
+$header3: 5rem;
+$header4: 2.8rem;
+$text: 2.5rem;
+$background-red: #b00000;
+$background-color: #e5e5e5;
+
+$gray-text: #2c2c2c;
+
+@mixin flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@import 'global';
