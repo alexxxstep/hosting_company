@@ -2,11 +2,12 @@ $header1: 6.4rem;
 $header2: 4.8rem;
 $header3: 5rem;
 $header4: 2.8rem;
+$header5: 2rem;
+$header6: 1.5rem;
 $text: 2.5rem;
 $background-red: #b00000;
 $background-color: #e5e5e5;
-
-$gray-text: #2c2c2c;
+$gray-text: #2e2e2e;
 
 @mixin flex($justify, $align, $direction) {
   display: flex;
@@ -16,3 +17,6 @@ $gray-text: #2c2c2c;
 }
 
 @import 'global';
+@import 'navbar';
+@import 'hero';
+@import 'footer';
